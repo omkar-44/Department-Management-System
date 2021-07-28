@@ -1,0 +1,106 @@
+body {
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 16px;
+ }
+/*
+ *= require bootstrap/dist/css/bootstrap.min.css
+ *= require_self
+ */
+/*.brand-name {
+ font-family: 'Josefin Slab', serif;
+ font-size: 47px;
+ font-weight: bold;
+ color: #444;
+ text-decoration: none;
+}*/
+
+
+
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar {
+ margin-top: 0px;
+ margin-bottom: 5px;
+ font-size: 18px;
+}
+
+.tag-line1 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #5ba8c9;
+}   
+.tag-line2 {
+   font-family: 'Quattrocento', serif;
+   text-align: center;   
+   font-size: 24px;  
+   font-weight: bold;
+   color: #73a046;
+   padding-bottom: 5px;
+   padding-left: 5px;
+ }
+.brand-name {
+  padding-top: -5px;
+
+}
+a.brand-font {
+  font-family: 'Josefin Slab', serif;  
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+
+.footer {
+  padding: 20px 0;
+}
+
+
+#demo-nav {
+  display: none;
+}
+
+.show-nav #demo-nav {
+  display: block;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html{
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+}
+.footer {
+  font-size: 15px;
+    
+  color: #efefef;
+  background-color: dimgrey;
+}
+.footer a {
+  color: #9af7fe;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 400px; }
+
+ 
+}
+
+
+
+
